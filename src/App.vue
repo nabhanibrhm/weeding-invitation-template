@@ -7,6 +7,9 @@
   <!-- Floating Music Toggle -->
   <MusicToggle :audioRef="audioRef" :isVisible="fullyOpened" />
 
+  <!-- Antigravity Floating Particles -->
+  <FloatingParticles v-if="fullyOpened" />
+
   <!-- Opening Shutter Overlay -->
   <div class="fixed inset-0 z-50 pointer-events-none flex flex-col" :class="{'hidden': fullyOpened}">
     <div class="bg-mulyo-charcoal w-full h-1/2 flex items-end justify-center pb-8 border-b border-mulyo-gold/20 transition-transform duration-[1.5s] ease-in-out pointer-events-auto shadow-[0_10px_30px_rgba(0,0,0,0.5)] z-20" :class="{'shutter-open-top': isOpened}">
@@ -55,6 +58,7 @@ import GallerySection from './components/GallerySection.vue'
 import GiftSection from './components/GiftSection.vue'
 import RSVPForm from './components/RSVPForm.vue'
 import MusicToggle from './components/MusicToggle.vue'
+import FloatingParticles from './components/FloatingParticles.vue'
 
 const isOpened = ref(false)
 const fullyOpened = ref(false)
