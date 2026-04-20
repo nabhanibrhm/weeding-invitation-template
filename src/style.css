@@ -26,7 +26,18 @@
   }
 
   .glass-panel {
-    @apply bg-white bg-opacity-20 backdrop-blur-lg border border-white border-opacity-30 shadow-xl;
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.1)];
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  }
+
+  .gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F4F1EA 50%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   /* Parallax Utilities */
