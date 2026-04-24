@@ -40,8 +40,8 @@
  <div ref="el => { if(el) textRefs[1] = el }" class="opacity-0 invisible relative">
  <h1 class="text-on-surface text-5xl md:text-8xl lg:text-9xl font-serif mb-4">
  <span class="absolute -top-10 -left-10 text-primary opacity-20 text-8xl md:text-9xl font-serif italic z-[-1]">&</span>
- Romeo <br class="md:hidden"/>
- <span class="text-primary hidden md:inline">&amp;</span> Juliet
+ Adam <br class="md:hidden"/>
+ <span class="text-primary hidden md:inline">&amp;</span> Hawa
  </h1>
  </div>
 

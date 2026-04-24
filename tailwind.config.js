@@ -44,8 +44,8 @@ export default {
         'surface-variant': '#e9e1d7'
       },
       fontFamily: {
-        'serif': ['"Noto Serif"', 'serif'],
-        'sans': ['Manrope', 'sans-serif'],
+        'serif': ['Tangerine', 'cursive'],
+        'sans': ['"Noto Sans"', 'sans-serif'],
       },
       animation: {
         'float': 'float 10s ease-in-out infinite',
