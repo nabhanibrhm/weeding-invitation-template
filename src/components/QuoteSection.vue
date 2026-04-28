@@ -1,5 +1,5 @@
 <template>
- <section class="py-24 px-6 md:px-12 bg-surface text-center overflow-hidden">
+ <section class="py-24 px-6 md:px-12 bg-[#C08552] text-center overflow-hidden">
  <div 
  ref="quoteContainer"
  class="max-w-4xl mx-auto space-y-8 transition-all duration-1000 transform"
@@ -8,7 +8,7 @@
  <!-- Decorative Ornament -->
  <div class="flex justify-center mb-6">
  <div class="h-px w-12 bg-primary/30 self-center"></div>
- <div class="mx-4 text-primary">
+ <div class="mx-4 text-black">
  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
  </div>
  <div class="h-px w-12 bg-primary/30 self-center"></div>
@@ -16,15 +16,15 @@
 
  <!-- The Quote -->
  <blockquote class="relative">
- <span class="absolute -top-10 -left-4 text-8xl text-primary/10 font-serif leading-none italic">“</span>
+ <span class="absolute -top-10 -left-4 text-8xl text-black/10 font-serif leading-none italic">“</span>
  <p class="text-xl md:text-2xl lg:text-3xl font-serif italic leading-relaxed text-on-surface/80 px-8">
  "And among His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy."
  </p>
- <span class="absolute -bottom-16 -right-4 text-8xl text-primary/10 font-serif leading-none italic">”</span>
+ <span class="absolute -bottom-16 -right-4 text-8xl text-black/10 font-serif leading-none italic">”</span>
  </blockquote>
 
  <!-- Source -->
- <cite class="block text-sm md:text-base font-sans tracking-[0.3em] uppercase text-primary pt-4 not-italic">
+ <cite class="block text-sm md:text-base font-sans tracking-[0.3em] uppercase text-black pt-4 not-italic">
  — Ar-Rum: 21
  </cite>
 

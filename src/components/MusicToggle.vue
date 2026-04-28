@@ -19,7 +19,7 @@
  class="relative flex items-center justify-center w-12 h-12 rounded-full border border-primary/30 glass-panel hover:border-primary transition-all duration-300"
  :class="isPlaying ? 'rotate-animation' : ''"
  >
- <svg v-if="isPlaying" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+ <svg v-if="isPlaying" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-black">
  <path d="M9 18V5l12-2v13"></path>
  <circle cx="6" cy="18" r="3"></circle>
  <circle cx="18" cy="16" r="3"></circle>
@@ -33,7 +33,7 @@
  </div>
 
  <!-- Tooltip -->
- <span class="absolute left-16 top-1/2 -translate-y-1/2 px-3 py-1 bg-primary text-on-primary rounded-lg text-primary text-[10px] tracking-widest uppercase rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+ <span class="absolute left-16 top-1/2 -translate-y-1/2 px-3 py-1 bg-primary text-on-primary rounded-lg text-black text-[10px] tracking-widest uppercase rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
  {{ isPlaying ? 'Mute' : 'Play' }} Music
  </span>
  </button>

@@ -1,7 +1,7 @@
 <template>
  <section 
  ref="sectionRef" 
- class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-surface"
+ class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-[#C08552]"
  >
  <!-- Background Wrapper -->
  <div 
@@ -32,16 +32,16 @@
  <!-- Content Card -->
  <div class="relative z-10 flex flex-col items-center justify-center text-center px-4 w-full">
  <div ref="el => { if(el) textRefs[0] = el }" class="opacity-0 invisible">
- <p class="text-primary tracking-[0.4em] text-xs md:text-sm font-sans font-medium mb-6 uppercase">
+ <p class="text-black tracking-[0.4em] text-xs md:text-sm font-sans font-medium mb-6 uppercase">
  The Wedding Of
  </p>
  </div>
  
  <div ref="el => { if(el) textRefs[1] = el }" class="opacity-0 invisible relative">
  <h1 class="text-on-surface text-5xl md:text-8xl lg:text-9xl font-serif mb-4">
- <span class="absolute -top-10 -left-10 text-primary opacity-20 text-8xl md:text-9xl font-serif italic z-[-1]">&</span>
+ <span class="absolute -top-10 -left-10 text-black opacity-20 text-8xl md:text-9xl font-serif italic z-[-1]">&</span>
  Adam <br class="md:hidden"/>
- <span class="text-primary hidden md:inline">&amp;</span> Hawa
+ <span class="text-black hidden md:inline">&amp;</span> Hawa
  </h1>
  </div>
 

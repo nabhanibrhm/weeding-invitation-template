@@ -1,8 +1,8 @@
 <template>
- <section class="py-24 md:py-32 bg-surface relative w-full overflow-hidden" ref="sectionRef">
+ <section class="py-24 md:py-32 bg-[#C08552] relative w-full overflow-hidden" ref="sectionRef">
  <div class="container mx-auto px-6 max-w-6xl">
  <div class="text-center mb-16 md:mb-24 transition-all duration-1000 transform" :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'">
- <p class="text-primary text-xs tracking-[0.3em] uppercase mb-4">When & Where</p>
+ <p class="text-black text-xs tracking-[0.3em] uppercase mb-4">When & Where</p>
  <h2 class="text-3xl md:text-5xl font-serif text-on-surface mb-4">Event Details</h2>
  
  </div>
@@ -15,15 +15,15 @@
  <!-- Holy Matrimony -->
  <div class="glass-panel p-8 md:p-12 border border-primary/5 transition-all duration-1000 transform group hover:-translate-y-1" :class="isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'" style="transition-delay: 200ms;">
  <h3 class="text-2xl font-serif text-on-surface mb-2">Holy Matrimony</h3>
- <p class="text-primary font-sans text-sm tracking-widest uppercase mb-6">Ceremony</p>
+ <p class="text-black font-sans text-sm tracking-widest uppercase mb-6">Ceremony</p>
  
  <div class="space-y-4 mb-8 text-sm md:text-base font-sans text-on-surface/80">
  <div class="flex items-start">
- <span class="w-6 inline-block mr-3 text-primary">•</span>
+ <span class="w-6 inline-block mr-3 text-black">•</span>
  <span>Saturday, October 24th, 2026</span>
  </div>
  <div class="flex items-start">
- <span class="w-6 inline-block mr-3 text-primary">•</span>
+ <span class="w-6 inline-block mr-3 text-black">•</span>
  <span>10:00 AM - 11:30 AM</span>
  </div>
  </div>
@@ -38,15 +38,15 @@
  <!-- Reception -->
  <div class="glass-panel p-8 md:p-12 border border-primary/5 transition-all duration-1000 transform group hover:-translate-y-1" :class="isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'" style="transition-delay: 400ms;">
  <h3 class="text-2xl font-serif text-on-surface mb-2">Wedding Reception</h3>
- <p class="text-primary font-sans text-sm tracking-widest uppercase mb-6">Celebration</p>
+ <p class="text-black font-sans text-sm tracking-widest uppercase mb-6">Celebration</p>
  
  <div class="space-y-4 mb-8 text-sm md:text-base font-sans text-on-surface/80">
  <div class="flex items-start">
- <span class="w-6 inline-block mr-3 text-primary">•</span>
+ <span class="w-6 inline-block mr-3 text-black">•</span>
  <span>Saturday, October 24th, 2026</span>
  </div>
  <div class="flex items-start">
- <span class="w-6 inline-block mr-3 text-primary">•</span>
+ <span class="w-6 inline-block mr-3 text-black">•</span>
  <span>06:00 PM - 10:00 PM</span>
  </div>
  </div>

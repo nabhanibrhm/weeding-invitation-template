@@ -1,51 +1,51 @@
 <template>
- <!-- Background Audio -->
- <audio ref="audioRef" loop>
- <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
- </audio>
+  <!-- Background Audio -->
+  <audio ref="audioRef" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
 
- <!-- Floating Music Toggle -->
- <MusicToggle :audioRef="audioRef" :isVisible="fullyOpened" />
+  <!-- Floating Music Toggle -->
+  <MusicToggle :audioRef="audioRef" :isVisible="fullyOpened" />
 
- <!-- Antigravity Floating Particles -->
- <FloatingParticles v-if="fullyOpened" />
+  <!-- Antigravity Floating Particles -->
+  <FloatingParticles v-if="fullyOpened" />
 
- <!-- Opening Shutter Overlay -->
- <div class="fixed inset-0 z-50 pointer-events-none flex flex-col" :class="{'hidden': fullyOpened}">
-  <div class="bg-surface w-full h-1/2 flex flex-col items-center justify-end pb-0 transition-transform duration-[1.5s] ease-in-out pointer-events-auto z-20" :class="{'shutter-open-top': isOpened}">
-    <h1 class="text-primary text-4xl md:text-6xl font-serif tracking-widest text-center mb-0">
-      Adam & Hawa
-    </h1>
-    <img src="@/assets/Muslim Couple.svg" alt="Muslim Couple" class="w-32 md:w-48 opacity-80" style="transform: translateY(50%)" />
+  <!-- Opening Shutter Overlay -->
+   <div class="fixed inset-0 z-50 pointer-events-none flex flex-col" :class="{'hidden': fullyOpened}">
+    <div class="bg-surface w-full h-1/2 flex flex-col items-center justify-end pb-0 transition-transform duration-[1.5s] ease-in-out pointer-events-auto z-20" :class="{'shutter-open-top': isOpened}">
+      <h1 class="text-black text-4xl md:text-6xl font-serif tracking-widest text-center mb-0">
+        Adam & Hawa
+      </h1>
+      <img src="@/assets/Muslim Couple.svg" alt="Muslim Couple" class="w-32 md:w-48 opacity-80" style="transform: translateY(50%)" />
+    </div>
+    <div class="bg-surface w-full h-1/2 flex flex-col items-center justify-start pt-4 transition-transform duration-[1.5s] ease-in-out pointer-events-auto z-10" :class="{'shutter-open-bottom': isOpened}">
+      <button ref="btnRef" @mousemove="onMouseMove" @mouseleave="onMouseLeave" @click="openInvitation" class="mt-24 px-8 py-3 bg-transparent border border-primary text-black font-sans font-medium tracking-[0.2em] text-sm uppercase transition-colors duration-500 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 shadow-lg hover:shadow-xl">
+        Open Invitation
+      </button>
+    </div>
+   </div>
+
+  <!-- Main Scroll Container with perspective -->
+  <div class="parallax-container min-h-screen bg-[#C08552]" :class="{'overflow-hidden pointer-events-none h-screen': !isOpened}">
+  <HeroSection />
+  
+  <div class="relative z-10 bg-[#C08552]">
+  <QuoteSection />
+  <CoupleSection />
+  <CountdownTimer />
+  <EventDetails />
+  <GallerySection />
+  <GiftSection />
+  <RSVPForm />
+  
+  <!-- Footer -->
+   <footer class="py-16 bg-surface-container-low flex flex-col items-center justify-center">
+   <h2 class="text-black text-2xl font-serif tracking-widest mb-4">R & J</h2>
+   <p class="text-on-surface text-xs font-sans tracking-[0.3em] opacity-60 uppercase mb-8">Thank you for your blessing</p>
+   <p class="text-on-surface/30 text-[10px] font-sans tracking-widest">Built with Vue.js & Antigravity parralax</p>
+   </footer>
   </div>
-  <div class="bg-surface w-full h-1/2 flex flex-col items-center justify-start pt-4 transition-transform duration-[1.5s] ease-in-out pointer-events-auto z-10" :class="{'shutter-open-bottom': isOpened}">
-    <button ref="btnRef" @mousemove="onMouseMove" @mouseleave="onMouseLeave" @click="openInvitation" class="mt-24 px-8 py-3 bg-transparent border border-primary text-primary font-sans font-medium tracking-[0.2em] text-sm uppercase transition-colors duration-500 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 shadow-lg hover:shadow-xl">
-      Open Invitation
-    </button>
   </div>
- </div>
-
- <!-- Main Scroll Container with perspective -->
- <div class="parallax-container" :class="{'overflow-hidden pointer-events-none h-screen': !isOpened}">
- <HeroSection />
- 
- <div class="relative z-10 bg-surface ">
- <QuoteSection />
- <CoupleSection />
- <CountdownTimer />
- <EventDetails />
- <GallerySection />
- <GiftSection />
- <RSVPForm />
- 
- <!-- Footer -->
- <footer class="py-16 bg-surface-container-low flex flex-col items-center justify-center">
- <h2 class="text-primary text-2xl font-serif tracking-widest mb-4">R & J</h2>
- <p class="text-on-surface text-xs font-sans tracking-[0.3em] opacity-60 uppercase mb-8">Thank you for your blessing</p>
- <p class="text-on-surface/30 text-[10px] font-sans tracking-widest">Built with Vue.js & Antigravity parralax</p>
- </footer>
- </div>
- </div>
 </template>
 
 <script setup>

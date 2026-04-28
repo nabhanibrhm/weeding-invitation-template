@@ -1,9 +1,9 @@
 <template>
- <section class="py-24 bg-surface-container-high relative overflow-hidden">
+ <section class="py-24 bg-[#C08552] relative overflow-hidden">
  <div class="max-w-7xl mx-auto px-6">
  <!-- Section Header -->
  <div class="text-center mb-16 space-y-4">
- <h2 class="text-primary text-sm tracking-[0.4em] uppercase font-sans">Our Moments</h2>
+ <h2 class="text-black text-sm tracking-[0.4em] uppercase font-sans">Our Moments</h2>
  <h3 class="text-4xl md:text-5xl font-serif text-on-surface">Photo Gallery</h3>
  </div>
 

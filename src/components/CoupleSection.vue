@@ -1,5 +1,5 @@
 <template>
- <section class="py-24 md:py-32 relative overflow-hidden bg-surface" ref="sectionRef">
+ <section class="py-24 md:py-32 relative overflow-hidden bg-[#C08552]" ref="sectionRef">
  <div class="container mx-auto px-6 max-w-5xl">
  <div class="text-center mb-20 md:mb-32">
  <h2 class="text-3xl md:text-5xl font-serif text-on-surface mb-4">Groom & Bride</h2>
@@ -15,7 +15,7 @@
  <img src="@/assets/couple.png" alt="Groom" class="absolute inset-0 w-full h-full object-cover object-[center_20%] z-10 " />
  </div>
  <h3 class="text-2xl md:text-3xl font-serif text-on-surface mb-2">Romeo Montague</h3>
- <p class="text-sm font-sans tracking-[0.1em] text-primary uppercase mb-4">The Groom</p>
+ <p class="text-sm font-sans tracking-[0.1em] text-black uppercase mb-4">The Groom</p>
  <p class="text-sm text-on-surface/70 leading-relaxed font-sans max-w-xs">
  Son of Mr. Montague & Mrs. Montague<br/>
  "Forever is composed of nows."
@@ -23,7 +23,7 @@
  </div>
 
  <!-- Divider / "&" -->
- <div class="w-full md:w-2/12 flex justify-center text-primary text-6xl md:text-8xl font-serif italic opacity-30 transform transition-all duration-1000 delay-500"
+ <div class="w-full md:w-2/12 flex justify-center text-black text-6xl md:text-8xl font-serif italic opacity-30 transform transition-all duration-1000 delay-500"
  :class="isVisible ? 'scale-100 opacity-30' : 'scale-50 opacity-0'">
  &
  </div>
@@ -36,7 +36,7 @@
  <img src="@/assets/couple.png" alt="Bride" class="absolute inset-0 w-full h-full object-cover object-[center_30%] z-10 " />
  </div>
  <h3 class="text-2xl md:text-3xl font-serif text-on-surface mb-2">Juliet Capulet</h3>
- <p class="text-sm font-sans tracking-[0.1em] text-primary uppercase mb-4">The Bride</p>
+ <p class="text-sm font-sans tracking-[0.1em] text-black uppercase mb-4">The Bride</p>
  <p class="text-sm text-on-surface/70 leading-relaxed font-sans max-w-xs">
  Daughter of Mr. Capulet & Mrs. Capulet<br/>
  "My bounty is as boundless as the sea."

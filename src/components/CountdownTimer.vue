@@ -7,7 +7,7 @@
  </div>
  
  <div class="container mx-auto px-6 relative z-10 flex flex-col items-center justify-center">
- <p class="text-primary text-xs tracking-[0.3em] uppercase mb-4 animate-fade-in">Save The Date</p>
+ <p class="text-black text-xs tracking-[0.3em] uppercase mb-4 animate-fade-in">Save The Date</p>
  <h2 class="text-3xl md:text-5xl font-serif mb-16 text-center">Counting down to our forever</h2>
  
  <div class="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-12"
@@ -22,7 +22,7 @@
  <span class="text-[10px] md:text-xs tracking-[0.2em] uppercase text-on-primary/60">Days</span>
  </div>
  
- <div class="text-xl md:text-3xl font-serif text-primary mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
+ <div class="text-xl md:text-3xl font-serif text-black mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
  
  <!-- Hours -->
  <div class="flex flex-col items-center">
@@ -32,7 +32,7 @@
  <span class="text-[10px] md:text-xs tracking-[0.2em] uppercase text-on-primary/60">Hours</span>
  </div>
  
- <div class="text-xl md:text-3xl font-serif text-primary mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
+ <div class="text-xl md:text-3xl font-serif text-black mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
  
  <!-- Minutes -->
  <div class="flex flex-col items-center">
@@ -42,7 +42,7 @@
  <span class="text-[10px] md:text-xs tracking-[0.2em] uppercase text-on-primary/60">Minutes</span>
  </div>
  
- <div class="text-xl md:text-3xl font-serif text-primary mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
+ <div class="text-xl md:text-3xl font-serif text-black mt-[18px] md:mt-[24px] lg:mt-[30px]">:</div>
  
  <!-- Seconds -->
  <div class="flex flex-col items-center">
